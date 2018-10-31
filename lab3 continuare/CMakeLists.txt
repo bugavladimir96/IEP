@@ -1,6 +1,13 @@
 cmake_minimum_required(VERSION 2.8)
 
-project(testl_project)
+project(myapp)
 
-add_library(testl STATIC testl.cpp)
-#add_library(testl SHARED testl.cpp)
+add_subdirectory(testl)
+
+add_executable(myapp app.cpp)
+
+target_link_libraries(myapp testl)
+
+#install(TARGETS myapp DESTINATION bin)
+
+

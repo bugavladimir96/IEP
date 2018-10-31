@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/vlad/c++/src/github.com/upt.IEP/IEP/lab3 continuare/_build/CMakeFiles" "/home/vlad/c++/src/github.com/upt.IEP/IEP/lab3 continuare/_build/CMakeFiles/progress.marks"
-	$(MAKE) -f CMakeFiles/Makefile2 all
+	cd "/home/vlad/c++/src/github.com/upt.IEP/IEP/lab3 continuare/_build" && $(CMAKE_COMMAND) -E cmake_progress_start "/home/vlad/c++/src/github.com/upt.IEP/IEP/lab3 continuare/_build/CMakeFiles" "/home/vlad/c++/src/github.com/upt.IEP/IEP/lab3 continuare/_build/testl/CMakeFiles/progress.marks"
+	cd "/home/vlad/c++/src/github.com/upt.IEP/IEP/lab3 continuare/_build" && $(MAKE) -f CMakeFiles/Makefile2 testl/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "/home/vlad/c++/src/github.com/upt.IEP/IEP/lab3 continuare/_build/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
 clean:
-	$(MAKE) -f CMakeFiles/Makefile2 clean
+	cd "/home/vlad/c++/src/github.com/upt.IEP/IEP/lab3 continuare/_build" && $(MAKE) -f CMakeFiles/Makefile2 testl/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,71 +97,60 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	$(MAKE) -f CMakeFiles/Makefile2 preinstall
+	cd "/home/vlad/c++/src/github.com/upt.IEP/IEP/lab3 continuare/_build" && $(MAKE) -f CMakeFiles/Makefile2 testl/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	$(MAKE) -f CMakeFiles/Makefile2 preinstall
+	cd "/home/vlad/c++/src/github.com/upt.IEP/IEP/lab3 continuare/_build" && $(MAKE) -f CMakeFiles/Makefile2 testl/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	$(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd "/home/vlad/c++/src/github.com/upt.IEP/IEP/lab3 continuare/_build" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
-#=============================================================================
-# Target rules for targets named myapp
+# Convenience name for target.
+testl/CMakeFiles/testl.dir/rule:
+	cd "/home/vlad/c++/src/github.com/upt.IEP/IEP/lab3 continuare/_build" && $(MAKE) -f CMakeFiles/Makefile2 testl/CMakeFiles/testl.dir/rule
+.PHONY : testl/CMakeFiles/testl.dir/rule
 
-# Build rule for target.
-myapp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 myapp
-.PHONY : myapp
+# Convenience name for target.
+testl: testl/CMakeFiles/testl.dir/rule
 
-# fast build rule for target.
-myapp/fast:
-	$(MAKE) -f CMakeFiles/myapp.dir/build.make CMakeFiles/myapp.dir/build
-.PHONY : myapp/fast
-
-#=============================================================================
-# Target rules for targets named testl
-
-# Build rule for target.
-testl: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testl
 .PHONY : testl
 
 # fast build rule for target.
 testl/fast:
-	$(MAKE) -f testl/CMakeFiles/testl.dir/build.make testl/CMakeFiles/testl.dir/build
+	cd "/home/vlad/c++/src/github.com/upt.IEP/IEP/lab3 continuare/_build" && $(MAKE) -f testl/CMakeFiles/testl.dir/build.make testl/CMakeFiles/testl.dir/build
 .PHONY : testl/fast
 
-app.o: app.cpp.o
+testl.o: testl.cpp.o
 
-.PHONY : app.o
+.PHONY : testl.o
 
 # target to build an object file
-app.cpp.o:
-	$(MAKE) -f CMakeFiles/myapp.dir/build.make CMakeFiles/myapp.dir/app.cpp.o
-.PHONY : app.cpp.o
+testl.cpp.o:
+	cd "/home/vlad/c++/src/github.com/upt.IEP/IEP/lab3 continuare/_build" && $(MAKE) -f testl/CMakeFiles/testl.dir/build.make testl/CMakeFiles/testl.dir/testl.cpp.o
+.PHONY : testl.cpp.o
 
-app.i: app.cpp.i
+testl.i: testl.cpp.i
 
-.PHONY : app.i
+.PHONY : testl.i
 
 # target to preprocess a source file
-app.cpp.i:
-	$(MAKE) -f CMakeFiles/myapp.dir/build.make CMakeFiles/myapp.dir/app.cpp.i
-.PHONY : app.cpp.i
+testl.cpp.i:
+	cd "/home/vlad/c++/src/github.com/upt.IEP/IEP/lab3 continuare/_build" && $(MAKE) -f testl/CMakeFiles/testl.dir/build.make testl/CMakeFiles/testl.dir/testl.cpp.i
+.PHONY : testl.cpp.i
 
-app.s: app.cpp.s
+testl.s: testl.cpp.s
 
-.PHONY : app.s
+.PHONY : testl.s
 
 # target to generate assembly for a file
-app.cpp.s:
-	$(MAKE) -f CMakeFiles/myapp.dir/build.make CMakeFiles/myapp.dir/app.cpp.s
-.PHONY : app.cpp.s
+testl.cpp.s:
+	cd "/home/vlad/c++/src/github.com/upt.IEP/IEP/lab3 continuare/_build" && $(MAKE) -f testl/CMakeFiles/testl.dir/build.make testl/CMakeFiles/testl.dir/testl.cpp.s
+.PHONY : testl.cpp.s
 
 # Help Target
 help:
@@ -170,12 +159,11 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... myapp"
-	@echo "... edit_cache"
 	@echo "... testl"
-	@echo "... app.o"
-	@echo "... app.i"
-	@echo "... app.s"
+	@echo "... edit_cache"
+	@echo "... testl.o"
+	@echo "... testl.i"
+	@echo "... testl.s"
 .PHONY : help
 
 
@@ -187,6 +175,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd "/home/vlad/c++/src/github.com/upt.IEP/IEP/lab3 continuare/_build" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

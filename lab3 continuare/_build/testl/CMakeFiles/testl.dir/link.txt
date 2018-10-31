@@ -1,0 +1,2 @@
+/usr/bin/ar qc libtestl.a  CMakeFiles/testl.dir/testl.cpp.o
+/usr/bin/ranlib libtestl.a
