@@ -1,4 +1,4 @@
-# Install script for directory: /home/vlad/c++/src/github.com/upt.IEP/IEP/lab3 continuare/testl
+# Install script for directory: /home/vbgn/cursulIEP/IEP/lab3 continuare/testl
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

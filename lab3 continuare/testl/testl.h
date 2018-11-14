@@ -3,6 +3,6 @@
 
 #include <iostream>
 
-void f_test();
+void f_testl();
 
 #endif

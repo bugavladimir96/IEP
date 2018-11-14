@@ -1,6 +1,6 @@
-/home/vlad/c++/src/github.com/upt.IEP/IEP/lab3 continuare/_build/CMakeFiles/rebuild_cache.dir
-/home/vlad/c++/src/github.com/upt.IEP/IEP/lab3 continuare/_build/CMakeFiles/myapp.dir
-/home/vlad/c++/src/github.com/upt.IEP/IEP/lab3 continuare/_build/CMakeFiles/edit_cache.dir
-/home/vlad/c++/src/github.com/upt.IEP/IEP/lab3 continuare/_build/testl/CMakeFiles/rebuild_cache.dir
-/home/vlad/c++/src/github.com/upt.IEP/IEP/lab3 continuare/_build/testl/CMakeFiles/testl.dir
-/home/vlad/c++/src/github.com/upt.IEP/IEP/lab3 continuare/_build/testl/CMakeFiles/edit_cache.dir
+/home/vbgn/cursulIEP/IEP/lab3 continuare/_build/CMakeFiles/rebuild_cache.dir
+/home/vbgn/cursulIEP/IEP/lab3 continuare/_build/CMakeFiles/myapp.dir
+/home/vbgn/cursulIEP/IEP/lab3 continuare/_build/CMakeFiles/edit_cache.dir
+/home/vbgn/cursulIEP/IEP/lab3 continuare/_build/testl/CMakeFiles/rebuild_cache.dir
+/home/vbgn/cursulIEP/IEP/lab3 continuare/_build/testl/CMakeFiles/testl.dir
+/home/vbgn/cursulIEP/IEP/lab3 continuare/_build/testl/CMakeFiles/edit_cache.dir

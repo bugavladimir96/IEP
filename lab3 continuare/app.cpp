@@ -1,6 +1,6 @@
 #include "app.h"
 
 int main() {
-	f_test();
+	f_testl();
 	return 0;
 }
