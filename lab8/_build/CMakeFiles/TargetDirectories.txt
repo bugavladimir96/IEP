@@ -1,0 +1,3 @@
+/home/vbgn/cursulIEP/IEP/lab8/_build/CMakeFiles/rebuild_cache.dir
+/home/vbgn/cursulIEP/IEP/lab8/_build/CMakeFiles/myapp.dir
+/home/vbgn/cursulIEP/IEP/lab8/_build/CMakeFiles/edit_cache.dir
